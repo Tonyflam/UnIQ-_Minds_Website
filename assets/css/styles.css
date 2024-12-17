@@ -1,0 +1,207 @@
+/* All the properties with important class was done to override the bootsrap property by john empire */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    font-family: 'poppins', sans-serif;
+}
+.first-section{
+    padding: 0 50px 0 50px;
+    background: #20202f;
+}
+.navbar-nav{
+    margin-left: 15rem;
+}
+.nav-link{
+    color: #cccccc !important;
+    font-size: 17px !important;
+    padding-left: 20px !important;
+    font-family: 'poppins', sans-serif;
+}
+.nav-link:hover{
+    color: #00ff9d !important;
+}
+.nav-btn{
+    margin-left: 15rem;
+}
+.btn{
+    background-color: #00ff9d !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #20202f !important;
+}
+.btn:hover{
+    background-color: #33a77a !important;
+}
+.inner-con{
+    padding: 3rem 0 3rem 0;
+}
+.hero{
+    color: #ffff;
+    margin-top: 5rem;
+}
+.hero p{
+    color: #cccccc;
+    padding-top: 1rem;
+}
+.highlight{
+    color: #00ff9d;
+}
+.hero-btn{
+    color: #20202f;
+}
+.hero-btn:hover{
+    color: none
+}
+.img-side{
+    height: auto;
+    width: 90%;
+}
+.second-section{
+    padding: 0px 50px 0 50px;
+    background-color: #f5f5f5;
+}
+.about{
+    display: inline-block;
+}
+.about h2{
+    color: black;
+    padding-bottom: 0.5rem;
+}
+.about p{
+    font-size: 16px;
+    color: #20202f;
+}
+.about-img{
+    height: auto;
+    width: 1%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.about-details{
+    padding-top: 3rem;
+}
+.about-details ol li{
+    font-size: 16px;
+    color: #20202f;
+}
+.about-details h3{
+    color: #20202f;
+}
+.about-sponsor{
+    padding-top: 2rem;
+}
+.about-sponsor_img1{
+    height: auto;
+    width: 80%;
+    filter: grayscale(90%);
+}
+.about-sponsor_img1:hover{
+    filter: grayscale(0%);
+}
+.about-sponsor_img2{
+    height: auto;
+    width: 80%;
+    filter: grayscale(90%);
+}
+.about-sponsor_img2:hover{
+    filter: grayscale(0%);
+}
+.third-section{
+    background: #bdb9ff;
+    padding: 6rem 0 6rem  0;
+}
+.cta-heading{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+    color: #ffff;
+    padding-bottom: 1.5rem;
+}
+.cta-button{
+    justify-content: center;
+    align-items: center;
+    padding-left: 50%;
+    color: #f5f5f5 !important;
+    font-weight: 40px !important;
+    background-color: #212529 !important;
+    padding-bottom: 1.5rem;
+}
+.cta-button:hover{
+    background-color: black !important;
+}
+.fourth-section{
+    padding: 50px 400px;
+    /* background: #20202f; */
+}
+.button-mover{
+    margin-left: 45%;
+}
+.fifth-section{
+    background: #212529;
+    color: #ffff;
+}
+.footer-li a{
+    color: #ffff !important;
+}
+@media (max-width: 916px){
+    .fourth-section{
+        padding: 50px 50px;
+        /* background: #20202f; */
+    }
+    .button-mover{
+        margin-left: 45%;
+    }
+    .form-mover{
+        padding-left: 40px;
+    }
+}
+@media (max-width: 640px){
+    
+}
+@media (max-width: 640px){
+    .fourth-section{
+        padding: 50px 50px;
+        /* background: #20202f; */
+    }
+    .button-mover{
+        margin-left: 38%;
+    }
+    .cta-heading{
+        font-size: 1.7rem;
+        text-align: center;
+        font-weight: 900;
+        color: #ffff;
+        padding-bottom: 1.5rem;
+    }
+    .about-sponsor_img1{
+        height: auto;
+        width: 70%;
+        filter: grayscale(0%);
+    }
+    .about-sponsor_img2{
+        width: 70%;
+        filter: grayscale(0%);
+    }
+    .form-mover{
+        padding-left: 0px;
+    }
+    .fifth-section{
+        padding: 50px 50px;
+    }
+}
+[data-animate="fade-in"] {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 
